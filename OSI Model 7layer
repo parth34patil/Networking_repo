@@ -1,1 +1,11 @@
+OSI Model & TCP/IP Model
 
+A reference guide to the two foundational networking models: the OSI (Open 
+Systems Interconnection) Model and the TCP/IP Model.
+
+
+1. OSI Model (7 Layers)
+
+The OSI model is a conceptual framework that standardizes how different
+networking systems communicate. It breaks communication into 7 layers, each 
+responsible for a specific function.

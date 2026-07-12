@@ -1,0 +1,52 @@
+<svg viewBox="0 0 700 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="700" height="620" fill="#ffffff"/>
+  <text x="350" y="35" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a2e">OSI Model — 7 Layers</text>
+
+  <!-- Layer 7 -->
+  <rect x="80" y="60" width="540" height="65" rx="6" fill="#e63946"/>
+  <text x="110" y="88" font-size="16" font-weight="bold" fill="#ffffff">7</text>
+  <text x="150" y="88" font-size="16" font-weight="bold" fill="#ffffff">Application</text>
+  <text x="150" y="108" font-size="12" fill="#ffe5e5">HTTP, HTTPS, FTP, SMTP, DNS</text>
+
+  <!-- Layer 6 -->
+  <rect x="80" y="132" width="540" height="65" rx="6" fill="#f4845f"/>
+  <text x="110" y="160" font-size="16" font-weight="bold" fill="#ffffff">6</text>
+  <text x="150" y="160" font-size="16" font-weight="bold" fill="#ffffff">Presentation</text>
+  <text x="150" y="180" font-size="12" fill="#ffeee5">SSL/TLS, JPEG, ASCII</text>
+
+  <!-- Layer 5 -->
+  <rect x="80" y="204" width="540" height="65" rx="6" fill="#f9a03f"/>
+  <text x="110" y="232" font-size="16" font-weight="bold" fill="#ffffff">5</text>
+  <text x="150" y="232" font-size="16" font-weight="bold" fill="#ffffff">Session</text>
+  <text x="150" y="252" font-size="12" fill="#fff3e0">NetBIOS, RPC</text>
+
+  <!-- Layer 4 -->
+  <rect x="80" y="276" width="540" height="65" rx="6" fill="#f6d55c"/>
+  <text x="110" y="304" font-size="16" font-weight="bold" fill="#3a2e00">4</text>
+  <text x="150" y="304" font-size="16" font-weight="bold" fill="#3a2e00">Transport</text>
+  <text x="150" y="324" font-size="12" fill="#5a4a00">TCP, UDP</text>
+
+  <!-- Layer 3 -->
+  <rect x="80" y="348" width="540" height="65" rx="6" fill="#3caea3"/>
+  <text x="110" y="376" font-size="16" font-weight="bold" fill="#ffffff">3</text>
+  <text x="150" y="376" font-size="16" font-weight="bold" fill="#ffffff">Network</text>
+  <text x="150" y="396" font-size="12" fill="#e0f7f5">IP, ICMP, Routers</text>
+
+  <!-- Layer 2 -->
+  <rect x="80" y="420" width="540" height="65" rx="6" fill="#20639b"/>
+  <text x="110" y="448" font-size="16" font-weight="bold" fill="#ffffff">2</text>
+  <text x="150" y="448" font-size="16" font-weight="bold" fill="#ffffff">Data Link</text>
+  <text x="150" y="468" font-size="12" fill="#dceeff">Ethernet, MAC Address, Switches</text>
+
+  <!-- Layer 1 -->
+  <rect x="80" y="492" width="540" height="65" rx="6" fill="#173f5f"/>
+  <text x="110" y="520" font-size="16" font-weight="bold" fill="#ffffff">1</text>
+  <text x="150" y="520" font-size="16" font-weight="bold" fill="#ffffff">Physical</text>
+  <text x="150" y="540" font-size="12" fill="#cfe0ee">Cables, Hubs, NICs, Radio Signals</text>
+
+  <!-- Direction arrows -->
+  <text x="30" y="95" font-size="11" fill="#555" transform="rotate(-90 30 95)">Upper Layers</text>
+  <text x="30" y="525" font-size="11" fill="#555" transform="rotate(-90 30 525)">Lower Layers</text>
+
+  <text x="350" y="600" text-anchor="middle" font-size="12" fill="#777">Mnemonic: All People Seem To Need Data Processing (Layer 7 → 1)</text>
+</svg>
